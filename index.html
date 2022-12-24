@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap'); </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <script src="render.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Crypter</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+</head>
+<body>
+    <video playsinline autoplay muted loop id="bgvid">
+        <source src="./media/Cryptography - 100493.mp4" type="video/mp4">
+      </video>
+      <br><br>
+    <h1>Let's CRYPTE!</h1>
+    <h3 id="description">Crypter is a tool to encrypt pics and text with different methods of encryptions</h3>
+    <h3 id="description">Please choose one option below to Encrypt / Decrypt data</h3>
+    <br>
+    <div class="container">
+    <button class="button1" onclick="redirect_text()">Encrypt (Text)</button>
+    </div>
+    <div class="container">
+        <button class="button1" onclick="redirect_decrypt_text()">Decrypt (Text)</button>
+        </div>
+</body>
+</html>
